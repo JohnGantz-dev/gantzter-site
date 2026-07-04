@@ -1,0 +1,12 @@
+# nothing sensitive should ever live here — this repo is PUBLIC.
+# belt-and-suspenders excludes:
+.DS_Store
+*.env
+*secret*
+*token*
+*.key
+__pycache__/
+_dl/
+
+# paid course content — never public (delivered via Skool; kept on disk)
+claude-code-101-skool/
